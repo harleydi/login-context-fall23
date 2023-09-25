@@ -1,0 +1,7 @@
+#login.dark {
+    border: 1px solid darkred
+}
+
+#login.light {
+    border: 1px solid lightcyan;
+}

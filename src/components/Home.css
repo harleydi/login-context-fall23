@@ -1,0 +1,7 @@
+#home.dark {
+    border: 2px solid orange;
+}
+
+#home.light {
+    border: 2px dashed aliceblue;
+}
