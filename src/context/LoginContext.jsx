@@ -10,7 +10,7 @@ export const LoginDispatchContext = createContext(null)
 
 // initial state for the reducer
 const initalState = {
-    username: ''
+    username: 'Brad'
 }
 
 // export for providing the context, which will contain our reducer
@@ -28,10 +28,8 @@ export const LoginProvider = ({children}) => {
 // reducer for the above useReducer hook
 const loginReducer = (state, action) => {
     switch (action.type) {
-        case value:
-            
-            break;
-    
+        case 'submit':
+            return action.payload
         default:
             alert("hit default")
             state;
